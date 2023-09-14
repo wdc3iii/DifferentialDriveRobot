@@ -11,7 +11,7 @@ mcd = params.mc * params.d;
 
 gamma = 1 / R / alpha;
 delta = L / R / beta;
-a  = [mcd * w^2 / alpha; -mcd * w * v / beta] + [gamma gamma; delta -delta] * u;
+a = [mcd * w^2 / alpha; -mcd * w * v / beta] + [gamma gamma; delta -delta] * u;
 end
 
 

@@ -7,7 +7,7 @@ params.P = lyap([zeros(2, 2), eye(2); -params.Kp, -params.Kd]', eye(4));
 params.sigma = 1;
 
 %% Tracking
-T = 0.1;full
+T = 0.1;
 x0 = 0; y0 = 0; vx0 = 0.5; vy0 = 0; 
 ax = 0.1; ay = 0.5;
 
